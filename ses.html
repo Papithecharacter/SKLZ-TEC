@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SKLZ TECT LLP</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<style>
+  body{
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+ .look{
+  margin-top:90px ;
+  margin-left: 60px ;
+  height: 420px;
+  width: 1400px;
+  
+ }
+
+  .services{
+    margin-top: 50px;
+    margin-left: 48px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family:sans-serif;
+  }
+
+
+  div.options{
+    margin-top: -65px;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    padding: 0px;
+    gap: 60px;
+    
+    }
+    .options a:hover{
+      color: rgb(179, 15, 194);
+    }
+    .link{
+        color: Black;
+        font-size: 20px;
+        font-weight:140;
+        text-decoration: none;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+      }
+    
+
+  a{
+    color: Black;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Darker Grotesque';
+  }
+  h1{
+  margin-top: -325px;
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: lighter;
+  }
+  h2{
+    margin-top: 325px;
+    font-style: normal;
+    font-family: sans-serif;
+  }
+  .options2{
+    margin-left: 50px;
+    margin-top: 90px;
+
+  }
+  .options3{
+    margin-left: 750px;
+    margin-top: -3959px;
+    gap: 40px;
+  }
+  .options5{
+    margin-top: -100px;
+  }
+
+  .options13{
+  margin-top: 50px;
+  }
+
+  .options14{
+    margin-top: -350px;
+    margin-left: 100px;
+    border-width: thick;
+  }
+
+  .Connect{
+    margin-left: 25px;
+    margin-top: -255px;
+    font-style: normal;
+    font-family: sans-serif;
+    font-stretch: extra-expanded;
+    font-weight: bold;
+  }
+
+  .con{
+    margin-top: auto;
+    margin-left: 80px;
+    margin-right: 750px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 150%;
+  }
+
+  span {
+  content: "\2709";
+  }
+
+  .btn3{
+    margin-left: 1032px;
+    margin-top: 400px;
+    background-color: rgb(6,14,233);
+    height: 55px;
+    width: 150px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    font-size: 30px;
+  }
+
+  .options15{
+    margin-top: -600px;
+    margin-left: auto;
+  }
+
+  .btn4{
+    background-color: inherit;
+    margin-top: 75px;
+    margin-left: 1000px;
+    border: none;
+  }
+
+
+  .options16{
+   margin-top: -30px;
+   margin-left: -10px;
+ }
+
+ .options17{
+   margin-top: -135px;
+   margin-left: 75px;
+ }
+
+ .options18{
+   margin-top: -135px;
+   margin-left: 165px;
+ }
+ .container{
+       max-width: 1170px;
+       margin:auto;
+       margin-bottom: 40px;
+       padding: 61px 37px;
+     }
+     .row{
+       display: flex;
+       flex-wrap: wrap;
+     }
+     ul{
+       list-style: none;
+     }
+     .footer{
+       background-color: #24262b;
+         padding: 70px 0;
+         width: 1472px;
+         height: 401px;
+     }
+     .footer-col{
+        width: 25%;
+        padding: 0 15px;
+     }
+     .Out{
+      width: 25%;
+      padding: 0 15px;
+     }
+     .Out h4{
+      font-size: 18px;
+      color: #ffffff;
+      text-transform: capitalize;
+      margin-bottom: 35px;
+      font-weight: 500;
+      position: relative;
+     }
+     .Out{
+      margin: -193px 868px;
+      
+     }
+     .Out h4::before{
+      content: '';
+      position: absolute;
+      left:0;
+      bottom: -10px;
+      background-color: #e91e63;
+      height: 2px;
+      box-sizing: border-box;
+      width: 50px;
+    }
+    .ins{
+      margin: -35px -3px;
+      color: #bbbbbb;
+    }
+     .footer-col h4{
+       font-size: 18px;
+       color: #ffffff;
+       text-transform: capitalize;
+       margin-bottom: 35px;
+       font-weight: 500;
+       position: relative;
+     }
+     .footer-col h4::before{
+       content: '';
+       position: absolute;
+       left:0;
+       bottom: -10px;
+       background-color: #e91e63;
+       height: 2px;
+       box-sizing: border-box;
+       width: 50px;
+     }
+     .footer-col ul li:not(:last-child){
+       margin-bottom: 10px;
+     }
+     .footer-col ul li a{
+       font-size: 16px;
+       text-transform: capitalize;
+       color: #ffffff;
+       text-decoration: none;
+       font-weight: 300;
+       color: #bbbbbb;
+       display: block;
+       transition: all 0.3s ease;
+     }
+     .footer-col ul li a:hover{
+       color: #ffffff;
+       padding-left: 8px;
+     }
+     .footer-col .social-links a{
+       display: inline-block;
+       height: 40px;
+       width: 40px;
+       background-color: rgba(255,255,255,0.2);
+       margin:0 10px 10px 0;
+       text-align: center;
+       line-height: 40px;
+       border-radius: 50%;
+       color: #ffffff;
+       transition: all 0.5s ease;
+     }
+     .footer-col .social-links a:hover{
+       color: #24262b;
+       background-color: #ffffff;
+     }
+     .options13{
+  margin-top: 222px;
+  width:1481px; 
+  height:334px ;
+  background-color: #24262b;
+  padding-top: 24px;
+}
+
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+mi     body{
+       line-height: 1.5;
+       font-family: 'Poppins', sans-serif;
+     }
+     *{
+       margin:0;
+       padding:0;
+       box-sizing: border-box;
+     }
+     
+
+</style>
+
+
+</head>
+<body>
+  <a class="lp" href="index.html"><img src="image/sklz tect logo.png" alt="This is the Sklz Tect Logo" height="80px", width="auto"></a>
+  <div class="options">
+
+    <a class="link" href="COE.html">Centre of<br> Excellence</b></a>
+    <a class="link" href="CoC.html" > Centre of <br> Competence</a>
+    <a class="link" href="">Programs & <br> Certifications</a>
+    <a class="link" href=""> Internships & <br> Placements</a>
+    <a class="link" href="ses.html"> Student Engagement <br> Services</a>
+    <a class="link" href="#options14"> Contact Us</a>
+  </div>
+
+<img class="look" src="image/zzz.webp" alt="">
+  <h1 class="services"><center>Student Engagement Services</center></h1>
+
+
+  
+
+<div class="options2">
+<svg width="550" height="300" style="border: 4px black solid;">
+<rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+<text x="190" y="40" fill="black" font-size="35px">Counselling</text>
+<text  x="110" y="160" fill="grey" style="font-size: 20px;">Our counselling team explores students
+<tspan x="145" y="200">potential based on extra curricular </tspan>
+<tspan x="175" y="240">activities and interests.</tspan>
+
+</svg><br><br><br><br><br><br>
+<svg width="550" height="300" style="border: 4px black solid;">
+<rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+<text x="125" y="40" fill="black" font-size="35px">Technical Seminars</text>
+<text  x="115" y="140" fill="grey" style="font-size: 20px;">We organise technical seminars designed
+<tspan x="135" y="180">for students about industry trends</tspan>
+<tspan x="125" y="220">with reality checks. These seminars </tspan>
+<tspan x="125" y="260">are interactive and highly engaging.</tspan>
+</svg><br><br><br><br><br><br>
+<svg width="550" height="300" style="border: 4px black solid;">
+<rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+<text x="45" y="40" fill="black" font-size="35px">Induction program for Freshers</text>
+<text  x="50" y="90" fill="grey" style="font-size: 20px;">Student Induction Programme engages with the new
+<tspan x="45" y="120">students as soon as they come into the institution; before</tspan>
+<tspan x="35" y="150"> regular classes begin. Apart from the institutional policies,</tspan>
+<tspan x="35" y="180"> processes, practices, culture and values, the incumbents</tspan>
+<tspan x="75" y="210"> learn about the future trends and technologies</tspan>
+<tspan x="90" y="240"> that will shape their careers with hands-on</tspan>
+<tspan x="125" y="270">  experience on varied technologies.</tspan>
+</svg><br><br><br><br><br><br>
+<svg width="550" height="300" style="border: 4px black solid;">
+<rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+<text x="140" y="40" fill="black" font-size="35px">Mock interview and
+<tspan x="160" y="75">Resume Building</tspan></text>
+<text  x="115" y="140" fill="grey" style="font-size: 20px;">We organise technical seminars designed
+<tspan x="135" y="180">for students about industry trends</tspan>
+<tspan x="125" y="220">with reality checks. These seminars </tspan>
+<tspan x="125" y="260">are interactive and highly engaging.</tspan>
+</svg><br><br><br><br><br><br>
+<svg width="550" height="300" style="border: 4px black solid;">
+<rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+<text x="125" y="40" fill="black" font-size="35px">Communication Skills</text>
+<text  x="90" y="140" fill="grey" style="font-size: 20px;">Being able to communicate effectively with the
+<tspan x="85" y="180">help of vocals, written, visually and non-verbally</tspan>
+<tspan x="100" y="220">(using body language, gestures and the tone</tspan>
+<tspan x="195" y="260">and pitch of voice).</tspan>
+</svg><br><br><br><br><br><br>
+<svg width="550" height="300" style="border: 4px black solid;">
+<rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+<text x="125" y="40" fill="black" font-size="35px">Faculty Development
+<tspan x="200" y="75">Programme</tspan></text>
+<text  x="90" y="140" fill="grey" style="font-size: 20px;">The Faculty Development Programme (FDP)
+<tspan x="85" y="180">intends to facilitate up-gradation of knowledge,</tspan>
+<tspan x="100" y="220">skill and intends to assist students with the </tspan>
+<tspan x="105" y="260">latest information on domain or industry.</tspan>
+</svg><br><br><br><br><br><br>
+<svg width="550" height="300" style="border: 4px black solid;">
+<rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+<text x="100" y="40" fill="black" font-size="35px">Facilitating & Filing for
+<tspan x="150" y="75">Grants & Patents</tspan></text>
+<text  x="50" y="120" fill="grey" style="font-size: 20px;">Applying for a grant can be stressful and intimidating at
+<tspan x="40" y="160">times. From understanding the parts of the grant & patents</tspan>
+<tspan x="45" y="200">to completing the details of the budget, we facilitate and</tspan>
+<tspan x="60" y="240">provide all information needed to prepare clear goals,</tspan>
+<tspan x="90" y="280">objectives, and a competitive project proposal. </tspan>
+
+</svg><br><br><br><br><br><br>
+<svg width="550" height="300" style="border: 4px black solid;">
+<rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+<text x="200" y="40" fill="black" font-size="35px">Setting up
+<tspan x="125" y="75">Centre of Excellence</tspan></text>
+<text  x="70" y="120" fill="grey" style="font-size: 20px;">A CoE can be established for what a department
+<tspan x="75" y="160">or a school needs to focus on - innovation, best</tspan>
+<tspan x="80" y="200">practices, competency, product development.</tspan>
+<tspan x="55" y="240">Sklz Tect LLP illustrates the importance of location,</tspan>
+<tspan x="90" y="280">talent strategy, operating model and priority.</tspan>
+</svg><br><br><br><br><br><br>
+<svg width="550" height="300" style="border: 4px black solid;">
+<rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+<text x="75" y="40" fill="black" font-size="35px">International Collaborations</text>
+<text  x="70" y="120" fill="grey" style="font-size: 20px;">International university partnerships helps student
+<tspan x="65" y="160">recruitment for domestic students, an opportunity to</tspan>
+<tspan x="50" y="200">travel internationally via any exchange programs which</tspan>
+<tspan x="75" y="240">may have been set up, and vice versa for students</tspan>
+<tspan x="175" y="280">at partnered universities.</tspan>
+</svg><br><br><br><br><br><br>
+<svg width="550" height="300" style="border: 4px black solid;">
+<rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+<text x="100" y="40" fill="black" font-size="35px">Lecture Oriented Services</text>
+<text  x="85" y="140" fill="grey" style="font-size: 20px;">A series of short, mini-lectures punctuated by
+<tspan x="75" y="180">specific active learning events designed to meet</tspan>
+<tspan x="75" y="220">the class objectives through Storytelling, Games</tspan>
+<tspan x="225" y="260">and Quiz.</tspan>
+</svg><br><br><br><br><br><br>
+
+</div>
+
+
+<div class="options3">
+
+  <svg width="550" height="300" style="border: 4px black solid;">
+  <rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+  <text x="200" y="40" fill="black" font-size="35px">Mentoring</text>
+  <text  x="90" y="160" fill="grey" style="font-size: 20px;">Our Mentors are experienced professional who
+  <tspan x="105" y="200">share  their experience, and advice with the</tspan>
+  <tspan x="245" y="240">students.</tspan>
+  </svg><br><br><br><br><br><br>
+  <svg width="550" height="300" style="border: 4px black solid;">
+  <rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+  <text x="125" y="40" fill="black" font-size="35px">Campus Recruitment</text>
+  <text  x="100" y="120" fill="grey" style="font-size: 20px;">Campus placement  is an exclusive program
+  <tspan x="85" y="160">conducted for Universities or other educational</tspan>
+  <tspan x="90" y="200">institutions to provide specific jobs to students</tspan>
+  <tspan x="85" y="240">with varying gamut of skills prior to completing</tspan>
+  <tspan x="225" y="280">their studies.</tspan>
+  </svg><br><br><br><br><br><br>
+  <svg width="550" height="300" style="border: 4px black solid;">
+  <rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+  <text x="25" y="40" fill="black" font-size="35px">Student evaluation and assesment</text>
+  <text  x="90" y="160" fill="grey" style="font-size: 20px;">Our trainers use a wide variety of methods and
+  <tspan x="95" y="200">tools  to evaluate, measure, and document the</tspan>
+  <tspan x="115" y="240">industry  readiness and  skill acquisition.</tspan>
+</svg><br><br><br><br><br><br>
+  <svg width="550" height="300" style="border: 4px black solid;">
+  <rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+  <text x="150" y="40" fill="black" font-size="35px">LinkedIn Profile and
+  <tspan x="200" y="75">Networking</tspan></text>
+  <text  x="100" y="120" fill="grey" style="font-size: 20px;">Build a student's  professional network with
+  <tspan x="95" y="160">new contacts,  raise their profile, promote and</tspan>
+  <tspan x="90" y="200">create great content. Our team is here to assist</tspan>
+  <tspan x="95" y="240">you to increase your visibility and boost your</tspan>
+  <tspan x="245" y="280">career.</tspan>
+</svg><br><br><br><br><br><br>
+  <svg width="550" height="300" style="border: 4px black solid;">
+  <rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+  <text x="25" y="40" fill="black" font-size="35px">Student Development Workshops</text>
+  <text  x="100" y="140" fill="grey" style="font-size: 20px;">These workshops are designed to support
+  <tspan x="100" y="180">student's personal development, industry</tspan>
+  <tspan x="85" y="220">functioning and preparation for the workplace.</tspan>
+  </svg><br><br><br><br><br><br>
+  <svg width="550" height="300" style="border: 4px black solid;">
+  <rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+  <text x="75" y="40" fill="black" font-size="35px">Management Development
+  <tspan x="180" y="75">For Start-Ups</tspan></text>
+  <text  x="30" y="120" fill="grey" style="font-size: 20px;">A Management Development Programme (MDP) is a series of
+  <tspan x="40" y="160">modules and activities that are designed and delivered over</tspan>
+  <tspan x="35" y="200">an entire semester.Sklz Tect organises several management</tspan>
+  <tspan x="40" y="240">workshops. objectives, and a competitive project proposal.</tspan>
+  <tspan x="75" y="280">We can also offer qualifications and accreditations.</tspan>
+  </svg><br><br><br><br><br><br>
+  <svg width="550" height="300" style="border: 4px black solid;">
+  <rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+  <text x="125" y="40" fill="black" font-size="35px">Software Development
+  <tspan x="165" y="75">Grants & Patents</tspan></text>
+  <text  x="100" y="120" fill="grey" style="font-size: 20px;">Software development for startups is aimed at
+  <tspan x="105" y="160">helping young entrepreneurs translate their</tspan>
+  <tspan x="95" y="200">disruptive ideas into an executable one which</tspan>
+  <tspan x="125" y="240">further creates market-ready software</tspan>
+  <tspan x="245" y="280">products.</tspan>
+  </svg><br><br><br><br><br><br>
+  <svg width="550" height="300" style="border: 4px black solid;">
+  <rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+  <text x="210" y="40" fill="black" font-size="35px">Setting up
+  <tspan x="150" y="75">School of Vocation</tspan></text>
+  <text  x="110" y="160" fill="grey" style="font-size: 20px;">Since establishing a vocational school the
+  <tspan x="90" y="200">university is inherently complex. Sklz Tect LLP</tspan>
+  <tspan x="125" y="240">can plan, set up and manage it for you.</tspan>
+  </svg><br><br><br><br><br><br>
+  <svg width="550" height="300" style="border: 4px black solid;">
+  <rect width="550" height="300" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(211,211,211)" />
+  <text x="100" y="40" fill="black" font-size="35px">International Internships</text>
+  <text  x="95" y="120" fill="grey" style="font-size: 20px;">The International Internship Program  offers
+  <tspan x="135" y="160">guidance and financial support to</tspan>
+  <tspan x="105" y="200">undergraduates who wish to undertake a</tspan>
+  <tspan x="95" y="240">wsummer internship abroad means gaining</tspan>
+  <tspan x="150" y="280">practical, hands-on experience.</tspan>
+  </svg><br><br><br><br><br><br>
+  <svg width="550" height="300">
+</div>
+<div class="options13">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4>company</h4>
+        <ul>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">our services</a></li>
+          
+        </ul>
+      </div>
+   
+      <div class="footer-col">
+        <h4>Quick Link</h4>
+        <ul>
+          <li><a href="#">Center of Excellence</a></li>
+          <li><a href="#">Center of Competence</a></li>
+          <li><a href="#">Program & Certifications</a></li>
+          <li><a href="#">Internship & Placements</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="Out">
+      <h4>Connect with SKLZ TECT LLP</h4>
+      <div class="ins">  
+      <h3><br>  
+        406, Red Rose Building 49-50 Nehru Place
+        <br>  
+        New Delhi - 110019
+        <br>  
+        # 011-26284580
+        <br>  
+        Contact: +917895781738
+      </h3>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+</body>
+
+
+
+
+</html>
